@@ -1,3 +1,5 @@
+# Overview
+
 La idea es que
 * entiendas las piezas fundamentales que intervienen en el renderizado de una página web
 * puedas usarlas de forma básica
@@ -5,7 +7,7 @@ La idea es que
 
 Vamos a usar html y css básico por razones didácticas; en un proyecto moderno probablemente usarás algún framework de css y gran parte del html será generado por algún backend existente, pero hace falta saber lo básico para sacarle partido a estas cosas.
 
-Aquí hay preguntas, no soluciones: resolverlas requerirá buscar cosas en google, experimentar y documentarse. Iremos añadiendo ejercicios.
+Aquí hay preguntas, no soluciones: resolverlas requerirá buscar cosas en google, experimentar y documentarse. Iremos añadiendo ejercicios sobre la marcha.
 
 * [Preliminares](#preliminares)
 * [Ejercicios](#ejercicios)
@@ -39,6 +41,7 @@ Vamos a centrarnos únicamente en html y css.
 ### hello git
 
 Git [puede resultar complicado al principio](https://xkcd.com/1597/) pero vamos a empezar por donde no cubre:
+* crea una cuenta de [github](https://github.com/) si no tienes una ya
 * instálate git en tu máquina
 * clona este repo usando git
 * asegurate de que tienes un editor de texto apropiado para programar: ante la duda, descárgate [atom](https://atom.io/)
