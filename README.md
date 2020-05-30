@@ -59,7 +59,7 @@ También vamos a introducir [el inspector del browser](https://developers.google
 * puedes llevar a cabo cambios de forma interactiva y ver cómo quedan: puedes hacer esto en cualquier página!""
 
 El ejercicio:
-* Navega en tu browser directorio de `hello_css` en el repo clonado; depende de tu sistema operativo, por ejemplo en el mío que es un mac está en esta ruta: `file:///Users/miguelsimon/isa/hello_css/index.html`
+* Navega en tu browser al `index.html` de `hello_css` en el repo clonado; depende de tu sistema operativo, por ejemplo en el mío que es un mac está en esta ruta: `file:///Users/miguelsimon/isa/hello_css/index.html`
 * Abre el inspector del browser e inspecciona
 * Usando el inspector, cambia el css de forma interactiva para que el título aparezca en verde
-* Usando el editor, cambia el archivo de css para que el texto del párrafo aparezca en rojo
+* Usando el editor, cambia el archivo `hello.css` para que el texto del párrafo aparezca en rojo
