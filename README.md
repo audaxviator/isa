@@ -56,7 +56,7 @@ Mientras sólo usemos html y css, con el editor y el browser como herramienta de
 
 También vamos a introducir [el inspector del browser](https://developers.google.com/web/tools/chrome-devtools?hl=es): esto es super útil:
 * puedes inspeccionar la estructura del css y html de la página que estás viendo
-* puedes llevar a cabo cambios de forma interactiva y ver cómo quedan: puedes hacer esto en cualquier página!""
+* puedes llevar a cabo cambios de forma interactiva y ver cómo quedan: puedes hacer esto en cualquier página!
 
 El ejercicio:
 * Navega en tu browser al `index.html` de `hello_css` en el repo clonado; depende de tu sistema operativo, por ejemplo en el mío que es un mac está en esta ruta: `file:///Users/miguelsimon/isa/hello_css/index.html`
