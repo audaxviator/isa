@@ -13,6 +13,7 @@ Aquí hay preguntas, no soluciones: resolverlas requerirá buscar cosas en googl
 * [Ejercicios](#ejercicios)
   * [hello git](#hello-git)
   * [hello css](#hello-css)
+  * [sidebar](#sidebar)
 
 ## Preliminares
 
@@ -63,3 +64,14 @@ El ejercicio:
 * Abre el inspector del browser e inspecciona
 * Usando el inspector, cambia el css de forma interactiva para que el título aparezca en verde
 * Usando el editor, cambia el archivo `hello.css` para que el texto del párrafo aparezca en rojo
+
+### sidebar
+
+Contenido en el directorio [sidebar](sidebar)
+
+Podemos [añadir atributos de clase al html para hacer cómodo usar selectores desde css](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector).
+
+* añadir atributos de clase a los párrafos y usar selectores para:
+  * colorear en rojo los párrafos que mencionan a paco
+  * colorear en verde los párrafos que mencionan a pepe
+* Hay un div en esta web que contiene un [sidebar](https://en.wikipedia.org/wiki/Sidebar_(publishing)) con un índice al sitio web: queremos que aparezca a la izquierda del contenido en vez de encima.
