@@ -13,6 +13,7 @@ Aquí hay preguntas, no soluciones: resolverlas requerirá buscar cosas en googl
 * [Ejercicios](#ejercicios)
   * [hello git](#hello-git)
   * [hello css](#hello-css)
+  * [git remote](#git-remote)
   * [sidebar](#sidebar)
 
 ## Preliminares
@@ -64,6 +65,25 @@ El ejercicio:
 * Abre el inspector del browser e inspecciona
 * Usando el inspector, cambia el css de forma interactiva para que el título aparezca en verde
 * Usando el editor, cambia el archivo `hello.css` para que el texto del párrafo aparezca en rojo
+
+### git remote
+
+Con git estamos en una situación típica en un proyecto:
+* el repo https://github.com/miguelsimon/isa es el autoritario
+* tu fork https://github.com/audaxviator/isa es tu repo remoto
+* trabajas con un clon local de tu repo remoto, y subes tus cambios a https://github.com/audaxviator/isa
+* de vez en cuando tienes que traerte cambios nuevos en el repo autoritario a tus repos.
+
+Ahora he añadido cambios al repo autoritario: hace falta traer esos cambios a tu repo, y gracias a git puedes hacerlo sin tener que sobreescribir nada que ya hayas hecho. Para hacer esto tendrás que [añadir el repo autoritario como otro remoto a tu clon local](https://www.atlassian.com/es/git/tutorials/syncing), eg. `git remote add miji https://github.com/miguelsimon/isa`
+
+Una vez tienes este remoto, es fácil periódicamente
+
+* traerte los cambios nuevos del repo autoritario al repo local usando ese remoto, eg, vía `git pull`
+* subirlos de tu repo local a tu fork con `git push`
+
+Esto no es un proceso trivial; es fácil a nivel de ejecución pero asegúrate que sabes lo que está pasando a nivel conceptual, hay que leer y trastear.
+
+Guía conceptual útil: https://thepilcrow.net/explaining-basic-concepts-git-and-github/
 
 ### sidebar
 
