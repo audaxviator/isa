@@ -15,6 +15,7 @@ Aquí hay preguntas, no soluciones: resolverlas requerirá buscar cosas en googl
   * [hello css](#hello-css)
   * [git remote](#git-remote)
   * [sidebar](#sidebar)
+  * [cats and dogs](#cats-and-dogs)
 
 ## Preliminares
 
@@ -95,3 +96,16 @@ Podemos [añadir atributos de clase al html para hacer cómodo usar selectores d
   * colorear en rojo los párrafos que mencionan a paco
   * colorear en verde los párrafos que mencionan a pepe
 * Hay un div en esta web que contiene un [sidebar](https://en.wikipedia.org/wiki/Sidebar_(publishing)) con un índice al sitio web: queremos que aparezca a la izquierda del contenido en vez de encima.
+
+### cats and dogs
+
+Contenido en el directorio [cats_and_dogs](cats_and_dogs)
+
+Esta página se quedó a medio hacer; la intención es tener una página con descripciones de gatos y perros que parecen salidos de la isla del doctor Moreau.
+
+Falta:
+
+* añadir la página de dogs, siguiendo el patrón de la existente
+* completar sidebars
+* extender las descripciones de los cats
+* maquetar imágenes y contenido de forma que no sea un insulto visual
